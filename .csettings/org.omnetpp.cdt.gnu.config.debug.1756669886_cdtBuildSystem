@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 5.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage2">
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<configuration artifactName="${ProjName}" buildProperties="" description="" id="org.omnetpp.cdt.gnu.config.debug.1756669886" name="gcc-debug" parent="org.omnetpp.cdt.gnu.config.debug">
+			<folderInfo id="org.omnetpp.cdt.gnu.config.debug.1756669886." name="/" resourcePath="">
+				<toolChain id="org.omnetpp.cdt.gnu.toolchain.debug.1894232270" name="GCC for OMNEST" superClass="org.omnetpp.cdt.gnu.toolchain.debug">
+					<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.MachO64;org.eclipse.cdt.core.PE" id="org.omnetpp.cdt.targetPlatform.327913195" isAbstract="false" name="Windows, Linux, Mac" osList="win32,linux,macosx" superClass="org.omnetpp.cdt.targetPlatform"/>
+					<builder id="org.omnetpp.cdt.gnu.builder.debug.1814237916" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="OMNEST Make Builder (opp_makemake)" superClass="org.omnetpp.cdt.gnu.builder.debug">
+						<outputEntries>
+							<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
+							<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name=""/>
+						</outputEntries>
+					</builder>
+					<tool id="cdt.managedbuild.tool.gnu.archiver.base.975119948" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+					<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1534505935" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+						<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1104165516" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+					</tool>
+					<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1652642318" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+						<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1095187897" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+					</tool>
+					<tool id="cdt.managedbuild.tool.gnu.c.linker.base.668685121" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+					<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.444904303" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+						<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.122514910" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+							<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+							<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+						</inputType>
+					</tool>
+					<tool id="cdt.managedbuild.tool.gnu.assembler.base.467472251" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+						<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2087816974" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+					</tool>
+				</toolChain>
+			</folderInfo>
+			<sourceEntries>
+				<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+			</sourceEntries>
+		</configuration>
+	</storageModule>
+</cproject>
